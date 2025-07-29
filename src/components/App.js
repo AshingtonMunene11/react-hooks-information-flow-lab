@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ShoppingList from "./ShoppingList";
 import itemData from "../data/items";
 import Header from "./Header";
-function App() {
+export default function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   function onDarkModeClick() {
@@ -17,4 +17,3 @@ function App() {
   );
 }
 
-export default App;
